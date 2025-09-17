@@ -1,0 +1,16 @@
+.glow-button {
+  @apply px-4 py-2 rounded-xl font-semibold transition duration-300;
+  background: linear-gradient(90deg, #6b21a8, #1e3a8a);
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.7), 0 0 20px rgba(59, 130, 246, 0.5);
+}
+.glow-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.9), 0 0 30px rgba(59, 130, 246, 0.7);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #9333ea, #3b82f6);
+  border-radius: 10px;
+}
